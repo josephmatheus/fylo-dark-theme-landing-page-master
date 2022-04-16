@@ -23,8 +23,14 @@
     .header-container nav ul li{
         padding: 20px;
     }
+
     /* FEATURES */
     .features .features-container{
+        grid-template-columns: 1fr;
+    }
+
+    /* IMPACT */
+    .impact .impact-container{
         grid-template-columns: 1fr;
     }
 }

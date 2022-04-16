@@ -80,7 +80,6 @@
 /* FEATURES */
 
 .features {
-    background-color: hsl(217, 28%, 15%);
     color: #ffffff;
     display: flex;
     justify-content: center;
@@ -107,4 +106,49 @@
 
 .features .features-container .feature-card h2{
     margin-bottom: 20px;
+}
+
+/* IMPACT */
+
+.impact{
+    color: #ffffff;
+    padding: 75px;
+}
+
+.impact .impact-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    grid-gap: 5rem;
+}
+
+.impact .impact-container img{
+    max-width: 100%;
+}
+
+.impact .impact-container .impact-text{
+    text-align: left;
+    max-width: 450px;
+}
+
+.impact .impact-container .impact-text h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 3.1rem;
+    max-width: 350px;
+    padding: 30px 0;
+}
+
+.impact .impact-container .impact-text p{
+    font-size: 1.4rem;
+    margin: 15px 0;
+}
+
+.impact .impact-container .impact-text a{
+    color: hsl(176, 68%, 64%);
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+.impact .impact-container .impact-text a:hover{
+    color: #ffffff;
 }
