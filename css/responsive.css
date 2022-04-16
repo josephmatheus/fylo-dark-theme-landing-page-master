@@ -1,4 +1,27 @@
 /* HEADER */
+@media (max-width: 768px) {
+    /* GET EMAIL */
+    .get-email{
+        margin-top: 10px;
+    }
+
+    .get-email .get-email-container{
+        padding: 30px 30px 15px;
+    }
+
+    .get-email .get-email-container .form{
+        flex-direction: column;
+    }
+
+    .get-email .get-email-container .form input{
+        width: 175px;
+        margin-top: 5px;
+    }
+
+    .get-email .get-email-container .form .btn-get-started{
+        margin-top: 5px;
+    }
+}
 @media (max-width: 570px) {
     /* HEADER */
     .header-container{

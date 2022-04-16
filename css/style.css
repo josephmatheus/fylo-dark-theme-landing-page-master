@@ -205,3 +205,75 @@
     grid-template: p;
     font-size: 1.1rem;
 }
+
+/* GET EMAIL */
+
+.get-email{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    color: #ffffff;
+    
+}
+
+.get-email .get-email-container{
+    background-color: hsl(217, 28%, 15%);
+    max-width: 700px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 60px 60px 30px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.get-email .get-email-container h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 3.1rem;
+}
+
+.get-email .get-email-container p{
+    font-size: 1.4rem;
+    margin-top: 15px;
+}
+
+.get-email .get-email-container .form{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.get-email .get-email-container .form input{
+    align-self: center;
+    height: 43px;
+    width: 400px;
+    padding-left: 10px;
+    border-radius: 50px;
+    margin-top: 25px;
+}
+
+.get-email .get-email-container .form a {
+    align-self: center;
+    padding: 15px 30px;
+    border-radius: 50px;
+    margin-top: 25px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.get-email .get-email-container .form .btn-get-started{
+    color: #ffffff;
+    font-weight: 700;
+    background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    align-self: center;
+    padding: 15px 30px;
+    border-radius: 50px;
+    margin-top: 25px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border: 0;
+}
+
+.get-email .get-email-container .form .btn-get-started:hover{
+    background-image: none;
+    background-color: hsl(176, 68%, 64%);
+}
