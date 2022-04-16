@@ -1,0 +1,24 @@
+/* HEADER */
+@media (max-width: 570px) {
+    .header-container{
+        flex-direction: column;
+    }
+
+    .header-container .logo{
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 425px) {
+    .header-container .logo {
+        margin-bottom: 30px;
+    }
+
+    .header-container nav ul{
+        flex-direction: column;
+    }
+
+    .header-container nav ul li{
+        padding: 20px;
+    }
+}
