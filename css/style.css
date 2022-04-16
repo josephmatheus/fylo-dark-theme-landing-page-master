@@ -152,3 +152,56 @@
 .impact .impact-container .impact-text a:hover{
     color: #ffffff;
 }
+
+/* TESTIMONIALS */
+
+.testimonials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.testimonials .testimonials-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    padding: 50px;
+    max-width: 1000px;
+}
+
+.testimonials .testimonials-container .testimonial{
+    background-color: hsl(219, 30%, 18%);
+    color: #ffffff;
+    max-width: 400px;
+    border-radius: 5px;
+    padding: 30px 20px 15px;
+    font-size: 1.6rem;
+    box-shadow: hsl(217, 28%, 15%) 0px 0px 0px 2px, hsl(219, 30%, 18%) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.testimonials .testimonials-container .testimonial .person{
+    display: grid;
+    grid-template-areas: "img h3"
+                         "img p";
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0 1rem;
+    margin-top: 15px;
+}
+
+.testimonials .testimonials-container .testimonial .person img{
+    grid-template: img;
+    border-radius: 100px;
+    width: 35px;
+}
+
+.testimonials .testimonials-container .testimonial .person h3{
+    grid-template: h3;
+    font-size: 1.3rem;
+}
+
+.testimonials .testimonials-container .testimonial .person p{
+    grid-template: p;
+    font-size: 1.1rem;
+}

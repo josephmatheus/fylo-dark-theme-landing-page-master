@@ -8,6 +8,18 @@
     .header-container .logo{
         margin-bottom: 50px;
     }
+
+    /* IMPACT */
+    .impact .impact-container{
+        grid-template-columns: 1fr;
+    }
+
+    /* TESTIMONIALS */
+    .testimonials .testimonials-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
 }
 
 @media (max-width: 425px) {
@@ -26,11 +38,6 @@
 
     /* FEATURES */
     .features .features-container{
-        grid-template-columns: 1fr;
-    }
-
-    /* IMPACT */
-    .impact .impact-container{
         grid-template-columns: 1fr;
     }
 }
