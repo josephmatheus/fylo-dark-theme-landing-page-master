@@ -214,7 +214,7 @@
     justify-content: center;
     max-width: 100%;
     color: #ffffff;
-    
+    margin-bottom: -100px;
 }
 
 .get-email .get-email-container{
@@ -277,3 +277,97 @@
     background-image: none;
     background-color: hsl(176, 68%, 64%);
 }
+
+/* FOOTER */
+
+.footer {
+    background-color: hsl(216, 53%, 9%);
+    color: #ffffff;
+    padding: 200px 50px 80px;
+}
+
+.footer .footer-container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.footer .footer-container .footer-logo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3rem;
+    max-width: 350px;
+    text-align: left;
+}
+
+.footer .footer-container .footer-logo .localization{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.footer .footer-container .footer-logo .localization .fa-map-marker-alt{
+    font-size: 2rem;
+}
+
+.footer .footer-container .contact{
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    gap: 2rem;
+    align-items: center;
+    text-align: left;
+}
+
+.footer .footer-container .contact .fa-phone-alt,
+.footer .footer-container .contact .fa-envelope{
+    font-size: 2rem;
+}
+
+.footer .footer-container .links ul{
+    columns: 2;
+    column-gap: 2rem;
+}
+
+.footer .footer-container .links ul li {
+    margin-bottom: 15px;
+}
+
+.footer .footer-container .links ul li a{
+    color: #ffffff;
+}
+
+.footer .footer-container .links ul li a:hover{
+    font-weight: 700;
+}
+
+.footer .footer-container .social{
+    align-self: flex-start;
+    font-size: 2rem;
+    align-content: space-around;
+}
+
+.footer .footer-container .social a{
+    color: #ffffff;
+    margin: 5px;
+}
+
+.footer .footer-container .social a:hover{
+    color: hsl(176, 68%, 64%);
+}
+
+.attribution { 
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-end; 
+    font-size: 11px; 
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 5.8rem;
+  }
+  .attribution a { 
+    color: hsl(228, 45%, 44%);
+  }
